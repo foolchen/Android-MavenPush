@@ -8,7 +8,7 @@
 在library的build.gradle文件中直接添加如下代码：
 
 ```groovy
-apply from: 'https://github.com/foolchen/Android-MavenPush/maven_push.gradle'
+apply from: 'https://github.com/foolchen/Android-MavenPush/blob/master/maven_push.gradle'
 ```
 
 并且在工程根目录下添加`maven_push.properties`，用于存放Maven服务器相关信息。内容定义如下：
