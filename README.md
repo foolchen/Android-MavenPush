@@ -43,5 +43,20 @@ POM_LICENCE_DIST=Apache License Version 2.0
 POM_DEVELOPER_ID=chenchong
 POM_DEVELOPER_NAME=chenchong
 
+# 打包Kotlin源码
 
+打包时默认只会打包Java源码，如果需要打包Kotlin源码，则需要在library的build.gradle文件中添加如下代码：
+
+```groovy
+android{
+    sourceSets {
+    main {
+      java {
+        include '**/*.java'
+        include '**/*.kt'
+      }
+    }
+  }
+}
+```
 
