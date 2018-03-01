@@ -21,6 +21,7 @@ NEXUS_PASSWORD=Maven私服密码
 
 ## 对库的信息进行配置
 
+```
 // 库的版本，如果添加了SNAPSHOT后缀，则会在上传时自动使用SNAPSHOTS_REPO_URL的值
 VERSION_NAME=0.1.0-SNAPSHOT
 // 库的分组id
@@ -42,6 +43,7 @@ POM_LICENCE_DIST=Apache License Version 2.0
 // 开发者信息
 POM_DEVELOPER_ID=chenchong
 POM_DEVELOPER_NAME=chenchong
+```
 
 # 打包Kotlin源码
 
